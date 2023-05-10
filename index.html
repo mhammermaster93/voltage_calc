@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="stylesheet" href="css/mycss.css">
+        <title>Calculator</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Voltage Calculator</a>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container">
+            <div class="text-center mt-5">
+                <h2>Ohm's law</h2>
+                <p>A voltage calculator using ohms law. good luck on your homework</p>
+                <p>E = I * R</p>
+                <input type="text" id="e" placeholder = "Volts (E)">
+                <input type="text" id="i" placeholder = "Amperes (I)">
+                <input type="text" id="r" placeholder = "Ohms - Resistance (R)">
+                <br />
+                <br />
+                <div id="result"></div>
+                <input type="submit" onclick="calculator()">
+                <input type="reset" onclick = "reset()">
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
